@@ -1,5 +1,7 @@
 # Chat AI Clone
 
+![](./public/ChatAI.png)
+
 ## Installation
 
 Install Chat AI with npm
