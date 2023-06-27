@@ -7,9 +7,9 @@ export default function List({ messages }: { messages: Message[] }) {
         <>
             {messages.map(item =>
                 item.role === "user" ? (
-                    <MessageUser {...item} />
+                    <MessageUser key={item.id} {...item} />
                 ) : (
-                    <MessageSystem {...item} />
+                    <MessageSystem key={item.id} {...item} />
                 ))}
         </>
     )
