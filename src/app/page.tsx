@@ -18,7 +18,6 @@ export default function Chat() {
     handleInputChange,
     handleSubmit,
     setMessages,
-
   } = useChat({
     api: '/api/completion',
     onError: () => setError(true),

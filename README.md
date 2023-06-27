@@ -26,3 +26,20 @@ Install Chat AI with npm
 ```
 
 Now, you can play with the chat
+
+## API
+
+### POST - `/api/completion`
+You can use this route as endpoint
+
+#### Message Model:
+    id: string,   
+    content: string,   
+    role: 'system' | 'user', 'assistant',  
+    createdAt: Date | undefined   
+
+
+#### 
+    method POST,  
+    headers: { "content-Type": "application/json" }, 
+    body: Message[]
