@@ -37,7 +37,7 @@ You can use this route as endpoint
     content: string,   
     role: 'system' | 'user', 'assistant',  
     createdAt: Date | undefined   
-
+    
 
 #### 
     method POST,  
