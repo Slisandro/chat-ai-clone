@@ -2,7 +2,7 @@
 
 ![](./public/ChatAI.png)
 
-## Installation
+## Installation   
 
 Install Chat AI with npm
 
